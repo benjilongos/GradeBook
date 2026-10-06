@@ -17,7 +17,7 @@ while (grade>=0) {
 	grade = in.nextDouble();
 	
 if (grade < 0) {
-System.out.println("All done!");
+	System.out.println("Thank you for choosing me as your grade book! If you ever need more calculations, I'll be right here!");
 	break;
 }
 
@@ -36,12 +36,10 @@ lowest = grade;
 }
 
 if (totalCount > 0) {
-double average = sum/totalCount;
 System.out.println("The amount of grades entered was "+totalCount+" ");
-System.out.println("Your overall average is "+average+" ");
+System.out.println("Your overall average is "+sum/totalCount+" ");
 System.out.println("Your highest grade is "+highest+" ");
 System.out.println("Your lowest grade is "+lowest+" ");
-System.out.println("Thank you for choosing me as your grade book! If you ever need more calculations, I'll be right here!");
 
 }
 }
